@@ -1,0 +1,43 @@
+.backgroundImageOne {
+  background: url('/backgroundImageOne.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  opacity: 0.5;
+  z-index: -2;
+}
+
+.backgroundImageTwo {
+  background: url('/backgroundImageTwo.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  opacity: 1;
+  z-index: -1;
+}
+
+.backgroundImageThree {
+  background:
+    linear-gradient(#343d51bf, #343d5180), url('/backgroundImageThree.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 1;
+  z-index: -1;
+}
+
+.backgroundImageFour {
+  background: url('/backgroundImageFour.jpeg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  background-attachment: fixed;
+  opacity: 1;
+  z-index: -1;
+}
+
+@media (width <= 640px) {
+  .backgroundImageFour {
+    background-size: cover;
+  }
+}

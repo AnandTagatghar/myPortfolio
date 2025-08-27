@@ -1,0 +1,71 @@
+@import 'tailwindcss';
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&display=swap');
+
+:root {
+  --bg-primary: #343D51;
+  --bg-secondary: #70798C;
+  --accent: rgb(0,214,70,1);
+  /* --accent2: rgb(50,65,88,1); */
+  --accent-hover: #66BB6A;
+  --text-light: #FFFFFF;
+  --text-muted: rgb(160,160,159);
+}
+
+.bg-primary {
+  background-color: var(--bg-primary);
+}
+
+.bg-secondary {
+  background-color: var(--bg-secondary);
+}
+
+.text-light {
+  color: var(--text-light);
+}
+
+.hover-text-light:hover {
+  color: var(--text-light);
+}
+
+.text-muted {
+  color: var(--text-muted);
+}
+
+.hover-text-muted:hover {
+  color: var(--text-muted);
+}
+
+.bg-accent {
+  background-color: var(--accent);
+}
+
+/* .bg-accentTwo {
+  background-color: var(--accent2);
+} */
+
+.text-accent {
+  color: var(--accent);
+}
+
+.text-primary {
+  color: var(--bg-primary);
+}
+
+.border-accent {
+  border: 2px solid var(--accent);
+}
+
+.border-accent:hover{
+  background-color: var(--accent);
+  cursor: pointer;
+}
+
+
+
+body {
+  font-family: 'Open Sans', Arial, sans-serif;
+}
+
+html{
+  scroll-behavior: smooth;
+}
