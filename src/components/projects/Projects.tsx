@@ -21,7 +21,7 @@ function Projects() {
   return (
     <>
       <Navbar />
-      <div className="block md:flex justify-center items-center w-full min-h-[86.6vh] bg-[#303548]">
+      <div className="block md:flex justify-center items-center w-full min-h-[90.6vh] bg-[#303548]">
         {projectData && (
           <div className="w-full p-15 md:w-[80%] lg:w-[60%]">
             <div className="flex flex-wrap gap-2 justify-between">
@@ -62,34 +62,42 @@ function Projects() {
             )}
 
             <div className="mt-5 flex flex-wrap p-4 w-full gap-2 ">
-              <div className="border-1 w-full md:w-[45%] h-[20rem] rounded">
-                <img
-                  src={projectData?.screenShot1}
-                  alt="Project Image"
-                  className="w-full h-full object-fill"
-                />
-              </div>
-              <div className="border-1 w-full md:w-[45%] h-[20rem] rounded">
-                <img
-                  src={projectData?.screenShot2}
-                  alt="Project Image"
-                  className="w-full h-full object-fill"
-                />
-              </div>
-              <div className="border-1 w-full md:w-[45%] h-[20rem] rounded">
-                <img
-                  src={projectData?.screenShot3}
-                  alt="Project Image"
-                  className="w-full h-full object-fill"
-                />
-              </div>
-              <div className="border-1 w-full md:w-[45%] h-[20rem] rounded">
-                <img
-                  src={projectData?.screenShot4}
-                  alt="Project Image"
-                  className="w-full h-full object-fill"
-                />
-              </div>
+              {projectData.screenShot1 && (
+                <div className="border-1 w-full md:w-[45%] h-[20rem] rounded">
+                  <img
+                    src={projectData?.screenShot1}
+                    alt="Project Image"
+                    className="w-full h-full object-fill"
+                  />
+                </div>
+              )}
+              {projectData.screenShot2 && (
+                <div className="border-1 w-full md:w-[45%] h-[20rem] rounded">
+                  <img
+                    src={projectData?.screenShot2}
+                    alt="Project Image"
+                    className="w-full h-full object-fill"
+                  />
+                </div>
+              )}
+              {projectData.screenShot3 && (
+                <div className="border-1 w-full md:w-[45%] h-[20rem] rounded">
+                  <img
+                    src={projectData?.screenShot3}
+                    alt="Project Image"
+                    className="w-full h-full object-fill"
+                  />
+                </div>
+              )}
+              {projectData.screenShot4 && (
+                <div className="border-1 w-full md:w-[45%] h-[20rem] rounded">
+                  <img
+                    src={projectData?.screenShot4}
+                    alt="Project Image"
+                    className="w-full h-full object-fill"
+                  />
+                </div>
+              )}
             </div>
 
             <div className="flex mt-15">

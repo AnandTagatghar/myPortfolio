@@ -18,7 +18,7 @@ export const Card = React.memo(
       onMouseEnter={() => setHovered(index)}
       onMouseLeave={() => setHovered(null)}
       className={cn(
-        'rounded-sm relative bg-gray-100 dark:bg-neutral-900 overflow-hidden h-60 md:h-96 w-full transition-all duration-300 ease-out',
+        'rounded-sm relative bg-gray-100 dark:bg-neutral-900 overflow-hidden h-60 md:h-[12rem] w-full transition-all duration-300 ease-out',
         hovered !== null && hovered !== index && 'scale-[1]'
       )}
     >
@@ -35,28 +35,6 @@ export const Card = React.memo(
       >
         <div className="text-xl md:text-2xl font-medium bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-200">
           {card.title}
-          {/* <br />
-          {card.githublink && (
-            <button
-              className="text-light text-sm tracking-tight font-bold border-1 border-accent p-1 w-full transition-colors duration-300 ease-in-out mt-2"
-              onClick={() => {
-                console.log('github button clicked');
-              }}
-            >
-              View GitHub
-            </button>
-          )}
-          <br />
-          {card.projectLink && (
-            <button
-              className="text-light text-sm tracking-tight font-bold border-1 border-accent p-1 w-full transition-colors duration-300 ease-in-out mt-2"
-              onClick={() => {
-                console.log('project button clicked');
-              }}
-            >
-              View Project
-            </button>
-          )} */}
         </div>
       </div>
     </div>
@@ -76,9 +54,9 @@ export function FocusCards({ cards }: { cards: Card[] }) {
   const [hovered, setHovered] = useState<number | null>(null);
 
   return (
-    <div className="grid grid-cols-1 md:grid-cols-3 gap-10 max-w-5xl mx-auto md:px-8 w-full">
+    <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10 max-w-5xl mx-auto md:px-8 w-full">
       {cards.map((card, index) => (
-        <Link to={`/projects?project=${index+1}`} key={index}>
+        <Link to={`/projects?project=${index + 1}`} key={index}>
           <Card
             key={card.title}
             card={card}

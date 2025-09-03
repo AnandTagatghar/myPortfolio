@@ -25,14 +25,14 @@
   },
   {
     "projectId": 3,
-    "githubLink": "",
+    "githubLink": "https://github.com/AnandTagatghar/EmployeeTaskManagement",
     "projectLink": "",
-    "screenShot1": "",
-    "screenShot2": "",
+    "screenShot1": "/P3S1.png",
+    "screenShot2": "/P3S2.png",
     "screenShot3": "",
     "screenShot4": "",
-    "projectDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias ullam esse culpa quaerat, maxime unde dolore, vero magnam error labore minima, quod necessitatibus cumque eius? Voluptatum in est officiis iusto.",
-    "projectMainPageImage": "https://images.unsplash.com/photo-1505142468610-359e7d316be0?q=80&w=3070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "projectTitle": "Sala behta hi jayega"
+    "projectDescription": "This is a role-based task management web application designed to streamline employee task assignments and tracking. The system features a secure login that differentiates between admin and employee users using localStorage. Admins can assign tasks to employees and monitor progress, while employees can view tasks by status (New, In Progress, Completed), accept tasks, and update their status through intuitive CRUD operations. The application ensures efficient collaboration and task transparency within an organization. Built with a focus on user experience and productivity, it provides a clean UI and essential functionality for small to mid-sized teams.",
+    "projectMainPageImage": "/P3S1.png",
+    "projectTitle": "Employee Task Management System"
   }
 ]
