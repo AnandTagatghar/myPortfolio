@@ -3,6 +3,7 @@ import Footer from '../Footer';
 import Navbar from '../Navbar';
 import projectDatas from '../../data/projectData.json';
 import type { ProjectDataType } from '../../types/types';
+import { useEffect } from 'react';
 
 function Projects() {
   const location = useLocation();
@@ -13,12 +14,16 @@ function Projects() {
     (data) => data.projectId == project
   );
 
+  useEffect(() => {
+    document.title = 'Projects | Anand Tagatghar';
+  }, []);
+
   return (
     <>
       <Navbar />
       <div className="block md:flex justify-center items-center w-full min-h-[86.6vh] bg-[#303548]">
         {projectData && (
-          <div className="w-full p-15 md:w-[50%]">
+          <div className="w-full p-15 md:w-[80%] lg:w-[60%]">
             <div className="flex flex-wrap gap-2 justify-between">
               <h1 className="text-light p-4 text-4xl font-bold tracking-tight">
                 Project 0{projectData?.projectId}
@@ -56,31 +61,31 @@ function Projects() {
               </div>
             )}
 
-            <div className="mt-5 flex flex-wrap p-4 w-full gap-2">
-              <div className="border-1 w-[16.2rem] h-[20rem] md:w-[23rem]">
+            <div className="mt-5 flex flex-wrap p-4 w-full gap-2 ">
+              <div className="border-1 w-full md:w-[45%] h-[20rem] rounded">
                 <img
                   src={projectData?.screenShot1}
                   alt="Project Image"
                   className="w-full h-full object-fill"
                 />
               </div>
-              <div className="border-1 w-[16.2rem] h-[20rem] md:w-[23rem]">
+              <div className="border-1 w-full md:w-[45%] h-[20rem] rounded">
                 <img
                   src={projectData?.screenShot2}
                   alt="Project Image"
                   className="w-full h-full object-fill"
                 />
               </div>
-              <div className="border-1 w-[16.2rem] h-[20rem] md:w-[23rem]">
+              <div className="border-1 w-full md:w-[45%] h-[20rem] rounded">
                 <img
                   src={projectData?.screenShot3}
                   alt="Project Image"
                   className="w-full h-full object-fill"
                 />
               </div>
-              <div className="border-1 w-[16.2rem] h-[20rem] md:w-[23rem]">
+              <div className="border-1 w-full md:w-[45%] h-[20rem] rounded">
                 <img
-                  src={projectData?.screenShot3}
+                  src={projectData?.screenShot4}
                   alt="Project Image"
                   className="w-full h-full object-fill"
                 />

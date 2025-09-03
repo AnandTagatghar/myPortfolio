@@ -14,16 +14,36 @@ function Navbar() {
       <div className="h-full w-full">
         <ul className="flex gap-5 justify-center items-center w-full h-full">
           <li className="text-muted text-accent">
-            <button className='hover:cursor-pointer' onClick={() => handleClick('home')}>Home</button>
+            <button
+              className="hover:cursor-pointer"
+              onClick={() => handleClick('home')}
+            >
+              Home
+            </button>
           </li>
           <li className="text-muted hover-text-light">
-            <button className='hover:cursor-pointer' onClick={() => handleClick('skills')}>Skills</button>
+            <button
+              className="hover:cursor-pointer"
+              onClick={() => handleClick('skills')}
+            >
+              Skills
+            </button>
           </li>
           <li className="text-muted hover-text-light">
-            <button className='hover:cursor-pointer' onClick={() => handleClick('projects')}>Projects</button>
+            <button
+              className="hover:cursor-pointer"
+              onClick={() => handleClick('projects')}
+            >
+              Projects
+            </button>
           </li>
           <li className="text-muted hover-text-light">
-            <button className='hover:cursor-pointer' onClick={() => handleClick('contact')}>Contact</button>
+            <button
+              className="hover:cursor-pointer"
+              onClick={() => handleClick('contact')}
+            >
+              Contact
+            </button>
           </li>
         </ul>
       </div>

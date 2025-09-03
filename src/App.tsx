@@ -12,6 +12,8 @@ function App() {
   const location = useLocation();
 
   useEffect(() => {
+    document.title = 'Protfolio | Anand Tagatghar';
+    
     const scrollToId = location.state?.scrollToId;
     if (scrollToId) {
       const el = document.getElementById(scrollToId);

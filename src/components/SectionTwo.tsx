@@ -6,11 +6,15 @@ function SectionTwo() {
       <div className="rounded-sm w-[80%] h-[45%] bg-primary absolute left-1/2 -translate-x-1/2 -translate-y-1/2 shadow-lg p-10">
         <Logo className="text-5xl p-4" />
         <br />
-        <p className="text-light">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
-          corrupti ea saepe, libero maxime at quia temporibus vel voluptas modi
-          nesciunt suscipit similique consequatur cum porro! Quibusdam modi
-          dolor temporibus.
+        <p className="text-light overflow-scroll h-[40%]">
+          Results-oriented MERN Stack Developer with 4+ years of experience
+          designing and developing scalable backend systems, RESTful APIs, and
+          real-time applications. Experienced in working within agile teams,
+          delivering clean, maintainable code, and collaborating closely with
+          cross-functional teams. Spearheaded the design and implementation of a
+          scalable microservices architecture using Node.js, reducing server
+          response time by 60ms and improving application performance scores by
+          15/100 points.
         </p>
 
         <div className="w-full text-center mt-10">

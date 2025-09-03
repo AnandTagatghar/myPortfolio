@@ -1,27 +1,27 @@
 [
   {
     "projectId": 1,
-    "githubLink": "https://images.unsplash.com/photo-1649451844931-57e22fc82de3?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "projectLink": "https://images.unsplash.com/photo-1649451844931-57e22fc82de3?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "screenShot1": "https://images.unsplash.com/photo-1720980741441-b00ae54be18a?q=80&w=695&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "screenShot2": "https://images.unsplash.com/photo-1649451844931-57e22fc82de3?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "screenShot3": "https://images.unsplash.com/photo-1720980741441-b00ae54be18a?q=80&w=695&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "screenShot4": "https://images.unsplash.com/photo-1649451844931-57e22fc82de3?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "projectDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias ullam esse culpa quaerat, maxime unde dolore, vero magnam error labore minima, quod necessitatibus cumque eius? Voluptatum in est officiis iusto.",
-    "projectMainPageImage": "https://images.unsplash.com/photo-1518710843675-2540dd79065c?q=80&w=3387&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "projectTitle": "Forest Adventure"
+    "githubLink": "https://github.com/AnandTagatghar/MusicCourseWebClone",
+    "projectLink": "https://music-course-web-clone.vercel.app",
+    "screenShot1": "/P1S1.jpg",
+    "screenShot2": "/P1S2.jpg",
+    "screenShot3": "/P1S3.jpg",
+    "screenShot4": "/P1S4.jpg",
+    "projectDescription": "This project is a modern clone of a music course website built with Next.js, showcasing a responsive and clean UI. It features a compelling hero section, featured courses in areas like guitar, vocals, and music production, and an emphasis on personalized learning. The site includes sections on live feedback, interactive learning, and a dynamic instructor showcase. Designed with a focus on user experience, the clone replicates a professional music education platform suitable for all skill levels. This project highlights my frontend development skills, attention to UI/UX, and ability to build engaging, real-world web interfaces.",
+    "projectMainPageImage": "/P1S1.jpg",
+    "projectTitle": "Music School Web Clone"
   },
   {
     "projectId": 2,
-    "githubLink": "",
-    "projectLink": "",
-    "screenShot1": "",
-    "screenShot2": "",
-    "screenShot3": "",
-    "screenShot4": "",
-    "projectDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias ullam esse culpa quaerat, maxime unde dolore, vero magnam error labore minima, quod necessitatibus cumque eius? Voluptatum in est officiis iusto.",
-    "projectMainPageImage": "https://images.unsplash.com/photo-1600271772470-bd22a42787b3?q=80&w=3072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "projectTitle": "Valley of life"
+    "githubLink": "https://github.com/AnandTagatghar/FeedbackMessagingClone",
+    "projectLink": "https://feedback-messaging-clone.vercel.app",
+    "screenShot1": "/P2S1.png",
+    "screenShot2": "/P2S2.png",
+    "screenShot3": "/P2S3.png",
+    "screenShot4": "/P2S4.png",
+    "projectDescription": "Get Feedback” is a streamlined, no-sign-up platform that empowers creators to receive honest, anonymous critiques on their projects. Simply upload your work, generate a shareable link, and gather constructive insights from peers—free from bias and social pressure. The intuitive interface eliminates complexity, encouraging genuine feedback that fuels growth. Whether you seek design insights, coding suggestions, or early‑stage feedback, this tool delivers actionable input in a seamless, accessible way. No accounts, no hassle—just meaningful critiques that help you refine ideas, elevate your craft, and build with confidence.",
+    "projectMainPageImage": "/P2S1.png",
+    "projectTitle": "Get Feedback — Effortless Anonymous Project Reviews"
   },
   {
     "projectId": 3,
